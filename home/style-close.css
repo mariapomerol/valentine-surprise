@@ -1,0 +1,39 @@
+body {
+    background-color: #38b6ff;
+}
+
+.main-background {
+    display: grid;
+    grid-template-rows: repeat(30, 26px); 
+    grid-template-columns: repeat(60, 25px);
+}
+
+.main-background img {
+    z-index: 0;
+    grid-column: 1/61;
+    grid-row: 1/31;
+}
+
+.fire-link {
+    z-index: 1;
+    grid-column: 21/27;
+    grid-row: 16/21;
+}
+
+.window-link1 {
+    z-index: 1;
+    grid-column: 7/14;
+    grid-row: 6/14;
+}
+
+.window-link2 {
+    z-index: 1;
+    grid-column: 44/51;
+    grid-row: 6/13;
+}
+
+.book-link {
+    z-index: 1;
+    grid-column: 40/45;
+    grid-row: 18/21;
+}

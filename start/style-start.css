@@ -1,0 +1,20 @@
+
+body {
+    background-color: #38b6ff;
+}
+
+.main-background {
+    display: grid;
+    grid-template-rows: repeat(20, 37px); 
+    grid-template-columns: repeat(8, 170px);
+}
+
+.main-background img {
+    z-index: 0;
+}
+
+.start-link {
+    z-index: 1;
+    grid-column: 5;
+    grid-row: 15;
+}
